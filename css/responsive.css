@@ -1,0 +1,156 @@
+@media all and (max-width:850px) {
+    
+    #closemenu,
+    #openmenu {
+        display: inline-block;
+    }
+
+    #navigation {
+        position: fixed;
+        left: -320px;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+        background-color: var(--bg-dark);
+        width: 320px;
+        padding: 20px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        z-index: 1000;
+        overflow: auto;
+    }
+
+    #closemenu {
+        float: right;
+    }
+
+    .menu {
+        clear: both;
+        padding-top: 30px;
+    }
+
+    .menu li {
+        float: none;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .aboutus-img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .aboutus-content {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .wrapper-services article {
+        width: 50%;
+        text-align: center;
+    }
+
+    .wrapper-skills .single-skills {
+        width: 50%;
+    }
+
+    .grid .element-item {
+        width: calc(50% - 10px);
+        margin: 5px;
+    }
+
+    .wrapper-edge .single-edge {
+        width: calc(50% - 40px);
+    }
+
+    .single-pricing {
+        width: 50%;
+    }
+
+    .wrapper-pricing {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    .wrapper-contact {
+        padding-right: 0px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .wrapper-form {
+        width: 100%;
+    }
+
+    #contact h2, .wrapper-contact {
+        text-align: center;
+    }
+
+    .footer-social {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .footer-social li {
+        margin-right: 0px;
+        margin:  0 10px;
+    }
+
+}
+
+@media all and (max-width:550px)  {
+
+    h1 {
+        font-size: 50px;
+        padding: 0 10px;
+    }
+
+    .wrapper-services article {
+        width: 100%;
+    }
+
+    .wrapper-skills .single-skills {
+        width: 100%;
+    }
+
+    .grid .element-item {
+        width: calc(100% - 10px);
+    }
+
+    .wrapper-edge .single-edge {
+        width: calc(100% - 40px);
+    }
+
+    .single-pricing {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .wrapper-input input {
+        width: 100%;
+    }
+    .contact-wrapper {
+        display: block;
+    }
+}
